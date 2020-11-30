@@ -19,11 +19,19 @@ Install version `12.x.x LTS`, **NOT** version `14`.
 NPM comes built in with [Node.js](#nodejs), so there isn't a need to worry about
 it.
 
-### Step 2: Installing dependencies
+### Step 2: Cloning the repository
+
+Run `git clone https://github.com/oml33t/spam-mailer` in your terminal to clone the 
+repository to your local system.
+
+### Step 3: Installing dependencies
+
+Change the directory to the cloned repository by running `cd spam-mailer` in your 
+terminal.
 
 Now, run the command `npm install` in your terminal. This will install all of
 our dependencies.
 
-### Step 3: Running the program
+### Step 4: Running the program
 
-Now, run the command `npm start <target_email>` in your terminal. 
+Run the command `npm start <target_email>` in your terminal. 
