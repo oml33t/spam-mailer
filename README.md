@@ -43,6 +43,6 @@ Now, edit the `.env` file to add your email and app password. Check
 [Nodemailer using GMail](https://nodemailer.com/usage/using-gmail/) for more information about 
 how to enable 2FA and create App passwords.
 
-### Step 4: Running the program
+### Step 5: Running the program
 
 Run the command `npm start <target_email>` in your terminal. 
