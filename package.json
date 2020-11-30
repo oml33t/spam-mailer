@@ -1,0 +1,29 @@
+{
+  "name": "mail-spammer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint ./src/**/*.js",
+    "lint-fix": "eslint ./src/*.js --fix"
+  },
+  "author": "",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "dayjs": "^1.9.6",
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.16",
+    "txtgen": "^2.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
