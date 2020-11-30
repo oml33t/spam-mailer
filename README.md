@@ -4,12 +4,12 @@
 
 ### Step 1: Prerequisites
 
-AvBot-v3 has some prerequisites that need to be met in order to test your new
+This program has some prerequisites that need to be met in order to test your new
 features.
 
 #### Node.js
 
-For AvBot-v3 to function, you need to install the
+For this program to function, you need to install the
 [Node.js JavaScript Runtime](https://nodejs.org/).
 
 Install version `12.x.x LTS`, **NOT** version `14`.
