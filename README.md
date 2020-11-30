@@ -32,6 +32,17 @@ terminal.
 Now, run the command `npm install` in your terminal. This will install all of
 our dependencies.
 
+### Step 4: Nodemailer setup
+
+This project uses [Nodemailer](https://nodemailer.com/) to send mails and it requires 
+certain configurations to run.
+
+Run the command `cp .env.example .env` in your terminal to create a copy of the example env file.
+
+Now, edit the `.env` file to add your email and app password. Check 
+[Nodemailer using GMail](https://nodemailer.com/usage/using-gmail/) for more information about 
+how to enable 2FA and create App passwords.
+
 ### Step 4: Running the program
 
 Run the command `npm start <target_email>` in your terminal. 
